@@ -1,4 +1,4 @@
-import "./lesson.css";
+import "./Lesson.css";
 
 const LessonCard = (props) => {
   const { image, age, name } = props;

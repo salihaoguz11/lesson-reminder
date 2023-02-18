@@ -1,7 +1,19 @@
 import "./App.css";
+import Header from "./components/Header/Header";
+// import LessonCard from "./components/LessonCard/LessonCard";
+import { data } from "./helpers/data";
+import Lesson from "./pages/Lesson";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Header />
+      <Lesson />
+      {/* {data.map((item) => (
+        <LessonCard {...item} />
+      ))} */}
+    </div>
+  );
 }
 
 export default App;
